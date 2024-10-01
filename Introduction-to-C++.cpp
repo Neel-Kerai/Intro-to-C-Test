@@ -1,3 +1,6 @@
+//Hello World program in c++  //single line comments
+/*Hello World 
+program in c++*/  //Multi-Line comments
 #include <iostream>
 using namespace std;
 
