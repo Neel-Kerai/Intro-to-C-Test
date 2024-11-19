@@ -20,8 +20,24 @@ int main(){
             cout<<"\t2. BBIT 1102: Intro to Programming"<<endl;
             cout<<"\t1. BBIT 1104: Ethics"<<endl;
             break;
-        
+        case 3:
+            cout<<"Wednesday Classes\n..................."<<endl;
+            cout<<"\t1. BBIT 1103: Maths for Biz"<<endl;
+            cout<<"\t2. BBIT 1105: Theology"<<endl;
+            cout<<"\t3. BBIT 1105: Fundamentals of IT"<<endl;
+            break;
+            
+        case 4:
+            cout<<"Thursday Classes\n..................."<<endl;
+            cout<<"\t1. BBIT 1101: Accounting"<<endl;
+            cout<<"\t2. BBIT 1106: Fundamentals of IT"<<endl;
+            break;
+            
+        case 5:
+            cout<<"Friday Classes\n..................."<<endl;
+            cout<<"\t1. BBIT 1104: Business Computing"<<endl;
+            break;
         default:
-            cout<<"Invalid Input";          
+            cout<<"You do not have a class on this day"<<endl;          
     }
     return 0;}
